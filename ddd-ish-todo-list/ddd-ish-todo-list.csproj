@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>ddd_ish_todo_list</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ddd-ish-todo-list.cli\ddd-ish-todo-list.cli.csproj" />
+      <ProjectReference Include="..\ddd-ish-todo-list.service\ddd-ish-todo-list.service.csproj" />
+    </ItemGroup>
+
+</Project>
