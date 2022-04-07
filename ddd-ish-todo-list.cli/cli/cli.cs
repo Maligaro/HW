@@ -109,7 +109,7 @@ namespace ddd_ish_todo_list.cli
         {
             if (_user is null)
             {
-                Console.WriteLine("You need to login to run this command");
+                Console.WriteLine("Login to run this command");
                 return;
             }
 
